@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@400;600;700;800;900&");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(./background.png);
+  height: 858px;
+  background-size: cover;
+  font-family: "Martel", serif;
+}
+.container nav {
+  display: flex;
+  align-items: center;
+}
+.container nav h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 195px;
+}
+.container nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+}
+.container nav li {
+  list-style-type: none;
+  padding: 5%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #737373;
+}
+@media (max-width: 500px) {
+  .container nav nav {
+    height: 0px;
+  }
+  .container nav ul {
+    display: block;
+    margin: 0;
+    margin-top: 296px;
+  }
+  .container nav li {
+    margin-top: 30px;
+  }
+  .container nav h1 {
+    margin: 0;
+    margin-left: 15px;
+  }
+}
+.container .lega {
+  margin-top: 184px;
+  margin-left: 197px;
+}
+.container .lega h1 {
+  width: 509px;
+  font-weight: 900;
+  font-size: 58px;
+  line-height: 65px;
+}
+.container .lega p {
+  margin-top: 35px;
+  width: 300px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #737373;
+}
+.container .lega .but {
+  margin-top: 35px;
+  width: 182px;
+  height: 48px;
+  background: #784f33;
+  border-radius: 37px;
+  border: 1px solid #784f33;
+  color: white;
+  cursor: pointer;
+}
+.container .lega .but1 {
+  color: #784f33;
+  width: 155px;
+  height: 48px;
+  border: 1px solid #784f33;
+  border-radius: 37px;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .container .lega .lega {
+    margin: 0;
+    display: block;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .container .lega h1 {
+    margin: 0px;
+  }
+}
+.container .boxk {
+  display: flex;
+  margin-left: 197px;
+  gap: 30px;
+  margin-top: 80px;
+  margin-bottom: -80px;
+}
+.container .boxk .box {
+  width: 328px;
+  height: 210px;
+  background: #ffffff;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.container .boxk .box img {
+  margin-top: 37px;
+  margin-left: 42px;
+}
+.container .boxk .box .boxp {
+  margin-top: 12px;
+  margin-left: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.container .boxk .box .boxp1 {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+.container .boxk .box1 {
+  width: 328px;
+  height: 210px;
+  background: #295c7a;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  color: white;
+}
+.container .boxk .box1 img {
+  margin-top: 37px;
+  margin-left: 42px;
+}
+.container .boxk .box1 .boxp {
+  margin-top: 12px;
+  margin-left: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.container .boxk .box1 .boxp1 {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.container .ever {
+  background: #fafafa;
+}
+.container .ever h1 {
+  padding-top: 194px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.container .ever p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.container .ever .boxchak {
+  display: flex;
+  gap: 39.5px;
+  margin-left: 199.5px;
+  margin-top: 50px;
+}
+.container .ever .boxchak .boxcha {
+  width: 230px;
+  height: 170px;
+  background: #ffffff;
+}
+.container .ever .boxchak .boxcha img {
+  margin-top: 30px;
+  margin-left: 91px;
+}
+.container .ever .boxchak .boxcha h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+.container .ever .boxchak .boxcha p {
+  align-items: center;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #737373;
+}
+.container .ever .pra h2 {
+  margin-top: 219px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.container .ever .pra p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: #737373;
+}
+.container .ever .kalon {
+  display: flex;
+  gap: 39.5px;
+  margin-left: 199.5px;
+  margin-top: 45px;
+}
+.container .ever .kalon .fra {
+  width: 230px;
+  height: 300px;
+  background: #ffffff;
+}
+.container .ever .kalon .fra h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 30px;
+  margin-left: 29px;
+}
+.container .ever .kalon .fra p {
+  width: 160px;
+  margin-top: 15px;
+  margin-left: 29px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.container .ever .kalon .fra img {
+  margin-top: 30px;
+}
+.container .who h2 {
+  margin-top: 158px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.container .who .pp {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #737373;
+}
+.container .surat {
+  display: flex;
+}
+.container .surat img {
+  margin-top: 100px;
+  margin-left: 180px;
+}
+.container .surat .most {
+  margin-left: 121.5px;
+  margin-top: 129px;
+}
+.container .surat .most h3 {
+  width: 321px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.container .surat .most .ppp {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+.container .surat .most .the {
+  margin-top: 30px;
+}
+.container .surat .most .the h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.container .surat .most .the p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+}
+.container .oxiron {
+  background-color: #fafafa;
+  height: 270px;
+}
+.container .oxiron .images {
+  display: flex;
+  gap: 86.5px;
+  margin-left: 220px;
+  padding-top: 58px;
+}
+.container .oxiron .sub {
+  margin-left: 227px;
+  margin-right: 227px;
+  display: flex;
+  width: 1000px;
+  height: 124px;
+  background: #0072b5;
+  border-radius: 2px;
+}
+.container .oxiron .sub h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.container .oxiron .sub input {
+  margin-left: 150px;
+  margin-top: 33px;
+  width: 400px;
+  height: 56px;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+}
+.container .oxiron .sub button {
+  margin-right: 53px;
+  width: 117px;
+  height: 58px;
+  background: #d0a144;
+  border: 1px solid #e6e6e6;
+  border-radius: 0px 5px 5px 0px;
+  color: #ffffff;
+  margin-top: 33px;
+}
+.container .oxiron .kabud {
+  background: #252b42;
+  height: 77px;
+}
+.container .get h2 {
+  padding-top: 80px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+.container .get p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.container .get .flex {
+  display: flex;
+  margin-left: 227px;
+  margin-top: 110px;
+}
+.container .get .flex .georg1 {
+  margin-top: -30px;
+  width: 328px;
+  height: 333px;
+  background-color: #252b42;
+  color: white;
+  border: 1px solid #252b42;
+}
+.container .get .flex .georg1 img {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 128px;
+}
+.container .get .flex .georg1 h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 15px;
+}
+.container .get .flex .georg1 h5 {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.container .get .flex .georg1 button {
+  margin-top: 15px;
+  margin-left: 87px;
+  width: 154px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #d0a144;
+  border: 1px solid #d0a144;
+  cursor: pointer;
+}
+.container .get .flex .georg {
+  width: 328px;
+  height: 333px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+.container .get .flex .georg img {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 128px;
+}
+.container .get .flex .georg h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 15px;
+}
+.container .get .flex .georg h5 {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.container .get .flex .georg button {
+  margin-top: 15px;
+  margin-left: 87px;
+  width: 154px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #d0a144;
+  border: 1px solid #d0a144;
+  cursor: pointer;
+}
+.container .req {
+  background-color: #fafafa;
+  height: 142px;
+}
+.container .req .req1 {
+  display: flex;
+  margin-left: 195px;
+}
+.container .req .req1 h3 {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+.container .req .req1 p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737373;
+}
+.container .req .req1 button {
+  margin-top: 40px;
+  margin-left: 506px;
+  width: 158px;
+  height: 58px;
+  background: #784f33;
+  border-radius: 5px;
+  border: 1px solid #784f33;
+  color: #ffffff;
+}
+.container .comp {
+  background: linear-gradient(270deg, #295c7a -1.04%, #0072b5 100%);
+  height: 200px;
+  display: flex;
+  gap: 61px;
+  color: white;
+}
+.container .comp .comp1 {
+  margin-left: 195px;
+  margin-top: 50px;
+}
+.container .comp .legal {
+  margin-top: 50px;
+}
+.container .comp .fea {
+  margin-top: 50px;
+}
+.container .comp .res {
+  margin-top: 50px;
+}
+.container .comp .gett {
+  margin-top: 50px;
+}
+.container .made {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 195px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+}
+.container .iim {
+  margin-left: 504px;
+}
+.container .iim img {
+  margin-left: 30px;
+}/*# sourceMappingURL=style.css.map */
